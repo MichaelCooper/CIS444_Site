@@ -1,0 +1,64 @@
+/*search_results_style.css*/
+
+.search_page_box_container {
+
+                    position: absolute;
+                    left: 80%;
+                    top: 125px;
+                    z-index: 1;
+                    }
+
+.search_results_container {
+                    background-color: #476BB2;
+                    position: absolute;
+                    left: 150px;
+                    top: 200px;
+                    z-index: 1;
+                    font-size:30px;
+                    width: 80%;
+                    padding-bottom: 40px;
+                     }
+
+.button {
+  position:absolute;
+  
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+table {
+  background-color: white;
+  min-width: 600px;
+  margin-left: 10px;
+  width: 97%;
+}
+
+td {
+  align: center;
+}
+
+.admin_search_results_container {
+                    background-color: #476BB2;
+                    position: relative;
+                    left: 150px;
+                    top: 200px;
+                    z-index: 1;
+                    font-size:30px;
+                    min-width: 800px;
+                    width: 60%;
+                    padding-bottom: 40px;
+                    display: inline-block;
+                    overflow-y: scroll;
+                    max-height:400px;
+                     }
+.edit_user_button{
+        position: relative;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        font-size:20px;
+        width: 80%;
+        height: 80%;
+}

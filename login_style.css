@@ -1,0 +1,94 @@
+/*login_style.css*/
+
+.login_button {     background-color:  #6699FF;
+                    width: 80px;
+                    height: 25px;
+                    border-style: solid;
+                    border-color: black;}
+
+.login_container {  background-color: #476BB2;
+                    float: left;
+                    position: relative;
+                    left: 10%;
+                    width: 80%;
+                    height: 50%;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    margin-right: 20px;}                    
+
+.login_form_container {
+                    background-color: #99CCFF;
+                    position: relative;
+                    float: left;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    margin-bottom 5%;
+                    width: 45%;
+                    height: 90%;}
+
+.join_cotainer {    background-color: #99CCFF;
+                    position: relative;
+                    float: right;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    margin-bottom 5%;
+                    margin-right:5%;
+                    width: 40%;
+                    height: 90%;}
+
+.login_label {      background-color: #6699FF;
+                    position: relative;
+                    float: left;
+                    left: 2%;
+                    top: 2%;
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                    width: 50%;
+                    text-align: center;
+                    font-weight: bold;
+                    border-style: solid;
+                    border-color: white;
+                    border-width: 5px;}
+
+.login_form {       position: absolute;
+                    float: left;
+                    left: 2%;
+                    top: 35%;}
+
+#username {         border-style: solid;
+                    border-color: black;
+                    border-width: 2px;}
+
+#password {         border-style: solid;
+                    border-color: black;
+                    border-width: 2px;}
+
+#password_check {         border-style: solid;
+                    border-color: black;
+                    border-width: 2px;}
+
+#email {            border-style: solid;
+                    border-color: black;
+                    border-width: 2px;}
+
+#email_check {      border-style: solid;
+                    border-color: black;
+                    border-width: 2px;}
+
+
+.create_user_text { float: left;
+                    position: absolute;
+                    left: 2%;
+                    top: 25%;
+                    font-weight: bold;
+                    font-size: 1.6em;}
+
+.join_button {      background-color:  #6699FF;
+                    position:absolute;
+                    width: 80px;
+                    height: 25px;
+                    border-style: solid;
+                    border-color: black;
+                    float:left;
+                    top: 64%;
+                    left: 2%;}

@@ -1,0 +1,87 @@
+/*game_style.css */
+
+.game_info {        background-color: #476BB2;
+                    position: relative;
+                    top: 20px;                   
+                    width: 400px;
+                    left: 35%;
+                    overflow: auto;
+                    overflow-x:hidden;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    }
+
+.add_to_cart {      background-color: #6699FF;
+                    border-style: solid;
+                    border-color: black;
+                    float: right;
+                    position: relative;
+                    top: -10px;
+                    z-index: 200;
+                    }
+
+.reply_button {     background-color: #6699FF;
+                    border-style: solid;
+                    border-color: black;
+                    float: right;
+                    position: absolute;
+                    z-index: 200;
+                    bottom: 5px;
+                    right: 12.5px;
+                    }
+
+.game_info_container {
+                    background-color: lightgrey;
+                    position:relative;
+                    
+                    width: 375px;
+                    margin-left: 12.5px;
+                    top: 5px;
+                    z-index: 50;
+                    }
+
+.new_comment_box {
+                    background-color: #476BB2;
+                    position: relative;
+                    width: 400px;
+                    left: 35%;
+                    margin-left: 20px;
+                    margin-top: 40px;
+                    overflow: auto;
+                    min-height: 100px;
+                    z-index: 0;
+                    }
+.new_comment_text_box {
+                    background-color: lightgrey;
+                    position:relative;
+                    font-size: 10pt;
+                    width: 370px;
+                    margin-left: 12.5px;
+                    top: 5px;
+                    z-index: 50;
+                    height 60px;
+}                   
+
+.comment_container {
+                    background-color: lightgrey;
+                    position:relative;
+                    
+                    width: 370px;
+                    margin-left: 12.5px;
+                    top: 5px;
+                    z-index: 50;
+                    }
+
+.comment_div {      background-color: #476BB2;
+                    position: relative;
+                    top: 20px;                   
+                    width: 400px;
+                    left: 35%;
+                    overflow: auto;
+                    overflow-x:hidden;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    font-weight: bold;
+                    min-height: 60px;
+                    }

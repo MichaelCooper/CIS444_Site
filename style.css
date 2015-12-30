@@ -1,0 +1,167 @@
+/* main style sheet for all pages */
+
+#header             {
+                     background-color: #476BB2;
+                     position: absolute;
+                     height: 100px;
+                     width: 100%;
+                     top: 0px;
+                     left:0px;
+                     min-width: 800px;
+                    }
+
+#section            {
+                     background-color: #6699FF;
+                     position: absolute;
+                     height: 100%;
+                     width: 100%;
+                     top: 100px;
+                     left:0px;
+                     min-width: 800px;
+                     overflow: auto;
+                     display: block;
+                    }
+
+.logo               {
+                     height: 60px;
+                     width: 60px;
+                     padding-left: 30px;
+                    }
+
+.company_name       {
+                     color: #6699FF;
+                     display: block;
+                    }
+
+.login              {float:left;}
+
+.cart               {float:right;}
+
+
+.body               {
+                     margin: 0 !important;
+                     padding: 0 !important;
+                    }
+
+
+.logo_holder        {
+                     vertical-align: top;
+                     float: left;
+                     padding-left: 40px;
+                     padding-top: 10px;
+                    }
+
+.button_holder      {
+                     float: right;
+                     padding-top: 40px;
+                     width: 28%;
+                    }
+
+.header_button      {
+                     background-color: #6699FF;
+                     border-style: solid;
+                     border-color: black;
+                     margin-left: 5px;
+                     display: inline;
+                     float:right;
+                     position:relative;
+                    }
+
+/*used in both home.html and 404.html*/
+.nav_bar {           background-color: #476BB2;
+                     float: left;
+                     margin-left: 50px;
+                     margin-top: 20px;
+                     width: 100px;
+                     height: 165px;}
+
+.nav_button {        background-color: #6699FF;
+                     position: relative;
+                     top: 5px;
+                     left: 50%;
+                     width: 80px;
+                     height: 25px;
+                     border-style: solid;
+                     border-color: black;
+                     display: block;
+                     margin: 5px -40px;}
+
+.focused_game_image {
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    width: 95%;
+                    height: 95%;}
+
+.game_image {       position: relative;
+                    margin-top: 2%;
+                    margin-left: 4%;
+                    margin-bottom: 2%;
+                    width: 20%;
+                    height: 20%;}                     
+
+.search_box_container {
+                    background-color: none;
+                    float: right;
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    z-index: 1;}
+
+
+
+.breadcrumb li {    display: inline;}
+
+.breadcrumb li+li:before {
+                    content:" > ";}
+
+
+
+
+.highlighted_game_container {
+                    background-color: #476BB2;
+                    float: center;
+                    position: relative;
+                    left: 35%;
+                    width: 400px;
+                    height: 400px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    }
+
+
+
+.create_account_container {
+                    background-color: #99CCFF;
+                    position: relative;
+                    float: left;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    margin-bottom 5%;
+                    width: 90%;
+                    height: 90%;}
+
+.create_account_form {
+                    position: absolute;
+                    float: left;
+                    left: 2%;
+                    top: 15%;}
+
+.create_account_button {
+                    background-color:  #6699FF;
+                    width: 50%;
+                    height: 25px;
+                    border-style: solid;
+                    border-color: black;}
+
+.list_of_games_container {
+                    background-color: #476BB2;
+                    float: center;
+                    position: relative;
+                    top: 20px;
+                    width: 400px;
+                    left: 35%;
+                    min-height: 100px;
+                    margin-left: 20px;
+                    margin-top: 20px;}
+

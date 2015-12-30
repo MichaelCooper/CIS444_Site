@@ -1,0 +1,246 @@
+/*shopping_cart_style.css
+
+        Version 1
+        Validation Completed using W3C CSS Validation Service
+        Validation Date: 11/11/2015
+*/
+.shopping_cart_container {
+                    background-color: #476BB2;
+                    float: left;
+                    position: relative;
+                    left: 10%;
+                    width: 1305px;
+                    height: 1874px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    margin-right: 20px;
+}
+
+.game_image_cart {
+                    float: left;
+                    position:relative;
+                    width: 25%;
+                    height: 80%;
+                    margin-top: 10px;
+                    margin-left: 20px;
+}
+
+.create_cart_container {
+                    background-color:#99CCFF;
+                    position: relative;
+                    float: left;
+                    margin-left: 5%;
+                    margin-top: 3%;
+                    /*Value Error : margin-bottom Parse Error 5%
+                    margin-bottom 5%;*/
+                    width: 90%;
+                    height: 90%;
+}
+
+
+.shopping_game_container {
+                    background-color: #476BB2;
+                    float: left;
+                    position: relative;
+                    left: 10%;
+                    width: 80%;
+                    height: 10%;
+                    margin-top: 20px;
+
+}
+
+.game_title {
+                    background-color: white;
+                    float: left;
+                    position:absolute;
+                    width: 300px;
+                    height: 50px;
+                    top: 45px;
+                    left: 300px;
+                    text-align:center;
+                    vertical-align: middle;
+                    line-height: 0px;
+
+
+}
+
+.game_price_container {
+                    background-color:#99CCFF;
+                    float: left;
+                    position:absolute;
+                    width: 200px;
+                    height: 50px;
+                    top: 45px;
+                    left: 650px;}
+
+.game_cart_price {
+                    background-color: white;
+                    position:absolute;
+                    width: 150px;
+                    height: 30px;
+                    top: 10px;
+                    left: 25px;}
+
+.game_price_p {
+                    position: absolute;
+                    top: -15px;
+                    left: 45px;
+                    font-size: 20px;}
+
+.cart_subtotal_p {
+                    position: relative;
+                    display: inline-block;
+                    font-size: 50px;
+                    color: blue;
+                    width: 300px;
+                    height: 70px;
+                    text-decoration: underline;
+                    left: 56%;
+}
+
+.subtotal_container {
+                    background-color: #476BB2;
+                    position: relative;
+                    display: inline-block;
+                    float: right;
+                    width: 300px;
+                    height: 70px;
+                    margin-top: 50px;
+                    margin-right: 10px;
+}
+
+.subtotal_cart_price {
+                    background-color: white;
+                    position:absolute;
+                    width: 250px;
+                    height: 55px;
+                    top: 7px;
+                    left: 25px;}
+
+.subtotal_price_p {
+                    position: absolute;
+                    top: -37px;
+                    left: 70px;
+                    font-size: 40px;}
+
+
+.cart_total_p {
+                    position: absolute;
+                    float:left;
+                    top: 755px;
+                    left: 450px;
+                    font-size: 50px;
+                    color: blue;
+                    text-decoration: underline;
+}
+
+.total_container {
+                    background-color: #476BB2;
+                    float: left;
+                    position:absolute;
+                    width: 300px;
+                    height: 70px;
+                    top: 800px;
+                    left: 600px;
+
+}
+
+.total_cart_price {
+                    background-color: white;
+                    position:absolute;
+                    width: 250px;
+                    height: 55px;
+                    top: 7px;
+                    left: 25px;
+
+}
+
+.total_price_p {
+                    position: absolute;
+                    top: -37px;
+                    left: 70px;
+                    font-size: 40px;
+}
+
+
+.billing_container {
+
+                    background-color: #476BB2;
+                    position: relative;
+                    width: 80%;
+                    height: 95%;
+                    left: 10%;
+                    top: 3%;
+
+}
+
+.billing_container_background {
+
+                  background-color: #99CCFF;
+                  width:90%;
+                  height: 95%;
+                  margin: 0 auto;
+}
+
+.billing_container_main_background {
+                  position:relative;
+                  background-color: #476BB2;
+                  width:111.2%;
+                  height: 70%;
+                  margin: 0 auto;
+                  right: 5.6%;
+                  top: 2%;
+}
+
+.Payment_method {
+                   color:white;
+                   font-size: 25px;
+                   position: absolute;
+                   top: 175px;
+                   left: 100px;
+
+}
+
+.Payment_Method_header {
+                   color:white;
+                   font-size: 45px;
+                   text-decoration: underline;
+                   position: absolute;
+                   top: 0px;
+                   left: 100px;
+
+}
+
+.Billing_Information_header {
+                   color:white;
+                   font-size: 45px;
+                   text-decoration: underline;
+                   position: absolute;
+                   top: 0px;
+                   left: 600px;
+
+}
+
+.Billing_Information {
+                   color:white;
+                   font-size: 25px;
+                   position: absolute;
+                   top: 175px;
+                   left: 600px;
+
+}
+
+.Submit_Payment_Button {
+                    background-color:  #6699FF;
+                    position:absolute;
+                    width: 300px;
+                    height: 50px;
+                    top: 875px;
+                    left: 600px;
+                    font-size: 30px;
+                    border-style: solid;
+                    border-color: black;}
+
+.expiration {
+  overflow-y: scroll;
+}
